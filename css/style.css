@@ -79,62 +79,82 @@ nav.flex-container {
 
 
 
+
+
 /* DEBUG */
 .debug nav>* {
-    background-color: red;
+    background-color: #AE851F;
     min-height: 50px;
     border: 2px dashed blue;
 
 }
 
 .debug header {
-    background-color: lightcoral;
+    background-color: #9BC1CD;
     min-height: 50px;
 }
 
 .debug .hero-image {
-    background-color: greenyellow;
-    border: 2px dashed purple;
-    min-height: 300px;
+    background-color: pink;
+    border: 2px dashed red;
+    min-height: 250px;
 }
 
 .debug header .container.sub-section {
-    background-color: blue;
+    background-color: lightblue;
     min-height: 100px;
+    border: 2px solid gold;
 }
 
 .debug .first-section>aside {
-    background-color: green;
+    background-color: lightseagreen;
     min-height: 300px;
 }
 
 .debug .first-section div {
-    background-color: gold;
+    background-color: salmon;
     min-height: 300px;
 }
 
 .debug .bg-dark {
-    background-color: blueviolet;
+    background-color: lightgrey;
+}
+
+.debug .bg-darker {
+    background-color: #23272A;
 }
 
 .debug .bg-light {
-    background-color: papayawhip;
+    background-color: white;
 }
 
 .debug .flex-container.first-section {
-    background-color: brown;
+    background-color: lightblue;
+    border: 2px solid gold;
 }
 
 .debug .second-section>aside {
-    background-color: green;
+    background-color: lightseagreen;
     min-height: 300px;
 }
 
 .debug .second-section div {
-    background-color: gold;
+    background-color: salmon;
     min-height: 300px;
 }
 
 .debug .flex-container.second-section {
     background-color: lightblue;
+    border: 2px solid gold;
+}
+
+.debug .main-end {
+    background-color: green;
+    min-height: 800px;
+
+}
+
+.debug .container.last-section {
+    background-color: lightblue;
+    border: 2px solid gold;
 }
