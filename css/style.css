@@ -25,7 +25,7 @@ html {
     display: flex;
 }
 
-/* MAIN */
+/* HEADER */
 header div.container {}
 
 header {
@@ -35,9 +35,7 @@ header {
 nav.flex-container {
     /* line-height per debug */
     line-height: 50px;
-
     align-items: center;
-
 }
 
 .nav-bar {
@@ -48,6 +46,7 @@ nav.flex-container {
     text-align: end;
 }
 
+/* MAIN */
 .item-25 {
     width: 25%;
 }
@@ -66,6 +65,15 @@ nav.flex-container {
 }
 
 .first-section div {
+    width: 35%;
+}
+
+.second-section aside {
+    width: 65%;
+    order: 1;
+}
+
+.second-section div {
     width: 35%;
 }
 
@@ -105,10 +113,28 @@ nav.flex-container {
     min-height: 300px;
 }
 
-.debug .main-debug {
+.debug .bg-dark {
     background-color: blueviolet;
+}
+
+.debug .bg-light {
+    background-color: papayawhip;
 }
 
 .debug .flex-container.first-section {
     background-color: brown;
+}
+
+.debug .second-section>aside {
+    background-color: green;
+    min-height: 300px;
+}
+
+.debug .second-section div {
+    background-color: gold;
+    min-height: 300px;
+}
+
+.debug .flex-container.second-section {
+    background-color: lightblue;
 }
