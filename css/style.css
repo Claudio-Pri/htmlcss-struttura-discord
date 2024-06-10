@@ -18,6 +18,7 @@ html {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .flex-container {
@@ -25,9 +26,7 @@ html {
 }
 
 /* MAIN */
-header div.container {
-    padding: 20px;
-}
+header div.container {}
 
 header {
     background-color: aquamarine;
@@ -62,6 +61,14 @@ nav.flex-container {
     margin: 0 auto;
 }
 
+.first-section aside {
+    width: 65%;
+}
+
+.first-section div {
+    width: 35%;
+}
+
 
 
 /* DEBUG */
@@ -72,13 +79,36 @@ nav.flex-container {
 
 }
 
-.debug header .container {
+.debug header {
     background-color: lightcoral;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .debug .hero-image {
     background-color: greenyellow;
     border: 2px dashed purple;
     min-height: 300px;
+}
+
+.debug header .container.sub-section {
+    background-color: blue;
+    min-height: 100px;
+}
+
+.debug .first-section>aside {
+    background-color: green;
+    min-height: 300px;
+}
+
+.debug .first-section div {
+    background-color: gold;
+    min-height: 300px;
+}
+
+.debug .main-debug {
+    background-color: blueviolet;
+}
+
+.debug .flex-container.first-section {
+    background-color: brown;
 }
